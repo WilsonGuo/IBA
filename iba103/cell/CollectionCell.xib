@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CollectionCell">
+            <rect key="frame" x="0.0" y="0.0" width="160" height="160"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="160" height="160"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="videothumbnail_default.png" translatesAutoresizingMaskIntoConstraints="NO" id="bKA-16-Yoi">
+                        <rect key="frame" x="0.0" y="0.0" width="160" height="117"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="117" id="8fg-bv-2FN"/>
+                            <constraint firstAttribute="width" constant="160" id="hv4-mR-bTl"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="英雄本色" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9DV-dt-qcu">
+                        <rect key="frame" x="0.0" y="131" width="160" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="160" id="2yn-kO-GmR"/>
+                            <constraint firstAttribute="height" constant="21" id="qc5-bz-ovu"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="2yn-kO-GmR"/>
+                            </mask>
+                        </variation>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="list_play.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZXs-XL-sJW">
+                        <rect key="frame" x="65" y="43" width="30" height="30"/>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="9DV-dt-qcu" secondAttribute="trailing" id="6zR-FB-wKi"/>
+                <constraint firstItem="9DV-dt-qcu" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="DKE-U4-lNa"/>
+                <constraint firstItem="bKA-16-Yoi" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="DbO-19-32c"/>
+                <constraint firstItem="ZXs-XL-sJW" firstAttribute="centerY" secondItem="bKA-16-Yoi" secondAttribute="centerY" id="Fpt-OA-yTY"/>
+                <constraint firstItem="9DV-dt-qcu" firstAttribute="leading" secondItem="bKA-16-Yoi" secondAttribute="leading" id="KSQ-hF-AOL"/>
+                <constraint firstItem="bKA-16-Yoi" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="N5j-yn-oIJ"/>
+                <constraint firstAttribute="bottom" secondItem="9DV-dt-qcu" secondAttribute="bottom" constant="8" id="YpB-Fk-c5Y"/>
+                <constraint firstItem="9DV-dt-qcu" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="l4x-aS-ych"/>
+                <constraint firstItem="9DV-dt-qcu" firstAttribute="trailing" secondItem="bKA-16-Yoi" secondAttribute="trailing" id="lKo-GY-GDh"/>
+                <constraint firstItem="9DV-dt-qcu" firstAttribute="centerX" secondItem="ZXs-XL-sJW" secondAttribute="centerX" id="qxA-yY-B2d"/>
+            </constraints>
+            <size key="customSize" width="160" height="160"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="6zR-FB-wKi"/>
+                    <exclude reference="DKE-U4-lNa"/>
+                    <exclude reference="l4x-aS-ych"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="imgView" destination="bKA-16-Yoi" id="h41-nL-fQF"/>
+                <outlet property="nameView" destination="9DV-dt-qcu" id="9aa-TC-WMS"/>
+            </connections>
+            <point key="canvasLocation" x="202" y="210"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="list_play.png" width="30" height="30"/>
+        <image name="videothumbnail_default.png" width="160" height="117"/>
+    </resources>
+</document>

@@ -1,0 +1,39 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3D23E8810E94BCC871568F471BD31E4E7C91BE69",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "a35d910c-75e2-9c4a-adb5-9f7797da6823++8828" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "a35d910c-75e2-9c4a-adb5-9f7797da6823++8828" : 0,
+    "3D23E8810E94BCC871568F471BD31E4E7C91BE69" : 0,
+    "5B3C40636EBA686A4CB699636462C247B37A02F2" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "663B2497-A90A-4D14-8665-7561F59CDE71",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "a35d910c-75e2-9c4a-adb5-9f7797da6823++8828" : "",
+    "3D23E8810E94BCC871568F471BD31E4E7C91BE69" : "IBA\/",
+    "5B3C40636EBA686A4CB699636462C247B37A02F2" : "IBA103_iphone\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "iba103",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iba103.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/WilsonGuo\/IBA.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3D23E8810E94BCC871568F471BD31E4E7C91BE69"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/code.aliyun.com\/lanyanbo\/IBA103_iphone.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5B3C40636EBA686A4CB699636462C247B37A02F2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/112.74.85.63\/svn\/Projects",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "a35d910c-75e2-9c4a-adb5-9f7797da6823++8828"
+    }
+  ]
+}
