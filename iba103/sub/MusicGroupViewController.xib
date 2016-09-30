@@ -34,14 +34,14 @@
                             <nil key="highlightedColor"/>
                             <variation key="default">
                                 <mask key="constraints">
-                                    <exclude reference="f4Y-UM-0Yt"/>
                                     <exclude reference="GfH-Nd-Kwf"/>
+                                    <exclude reference="f4Y-UM-0Yt"/>
                                 </mask>
                             </variation>
                             <variation key="heightClass=regular">
                                 <mask key="constraints">
-                                    <include reference="f4Y-UM-0Yt"/>
                                     <include reference="GfH-Nd-Kwf"/>
+                                    <include reference="f4Y-UM-0Yt"/>
                                 </mask>
                             </variation>
                         </label>
@@ -124,13 +124,13 @@
                             <exclude reference="OiX-L1-SBb"/>
                         </mask>
                         <mask key="constraints">
-                            <exclude reference="Y6Y-0Z-7DK"/>
                             <exclude reference="8aH-n7-8LT"/>
-                            <exclude reference="dlY-PQ-qWs"/>
+                            <exclude reference="Y6Y-0Z-7DK"/>
                             <exclude reference="EUj-Gr-EYp"/>
-                            <exclude reference="gH0-DE-rFJ"/>
-                            <exclude reference="Vzb-h3-oo1"/>
+                            <exclude reference="dlY-PQ-qWs"/>
                             <exclude reference="9Oc-7e-PRi"/>
+                            <exclude reference="Vzb-h3-oo1"/>
+                            <exclude reference="gH0-DE-rFJ"/>
                         </mask>
                     </variation>
                     <variation key="heightClass=regular">
@@ -140,13 +140,13 @@
                             <include reference="OiX-L1-SBb"/>
                         </mask>
                         <mask key="constraints">
-                            <include reference="Y6Y-0Z-7DK"/>
                             <include reference="8aH-n7-8LT"/>
-                            <include reference="dlY-PQ-qWs"/>
+                            <include reference="Y6Y-0Z-7DK"/>
                             <include reference="EUj-Gr-EYp"/>
-                            <include reference="gH0-DE-rFJ"/>
-                            <include reference="Vzb-h3-oo1"/>
+                            <include reference="dlY-PQ-qWs"/>
                             <include reference="9Oc-7e-PRi"/>
+                            <include reference="Vzb-h3-oo1"/>
+                            <include reference="gH0-DE-rFJ"/>
                         </mask>
                     </variation>
                 </view>
@@ -185,14 +185,14 @@
                     <exclude reference="CG7-Rt-wk0"/>
                     <exclude reference="dxQ-HV-Wax"/>
                     <exclude reference="w7l-8p-7IB"/>
-                    <exclude reference="8nK-Pb-hde"/>
-                    <exclude reference="A98-BY-Kk9"/>
-                    <exclude reference="hGO-ik-sE6"/>
-                    <exclude reference="mQ8-0c-RVK"/>
                     <exclude reference="JLQ-Q0-zQn"/>
                     <exclude reference="L4P-N3-6B0"/>
                     <exclude reference="PlW-MZ-p9j"/>
                     <exclude reference="Vkm-2L-0he"/>
+                    <exclude reference="8nK-Pb-hde"/>
+                    <exclude reference="A98-BY-Kk9"/>
+                    <exclude reference="hGO-ik-sE6"/>
+                    <exclude reference="mQ8-0c-RVK"/>
                 </mask>
             </variation>
             <variation key="heightClass=regular">
@@ -205,14 +205,14 @@
                     <include reference="CG7-Rt-wk0"/>
                     <include reference="dxQ-HV-Wax"/>
                     <include reference="w7l-8p-7IB"/>
-                    <include reference="8nK-Pb-hde"/>
-                    <include reference="A98-BY-Kk9"/>
-                    <include reference="hGO-ik-sE6"/>
-                    <include reference="mQ8-0c-RVK"/>
                     <include reference="JLQ-Q0-zQn"/>
                     <include reference="L4P-N3-6B0"/>
                     <include reference="PlW-MZ-p9j"/>
                     <include reference="Vkm-2L-0he"/>
+                    <include reference="8nK-Pb-hde"/>
+                    <include reference="A98-BY-Kk9"/>
+                    <include reference="hGO-ik-sE6"/>
+                    <include reference="mQ8-0c-RVK"/>
                 </mask>
             </variation>
             <point key="canvasLocation" x="-106" y="123"/>

@@ -118,6 +118,8 @@
 		C8D5233C1D9A896900A1ECD0 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8D523381D9A896900A1ECD0 /* BaseViewController.m */; };
 		C8D5233D1D9A896900A1ECD0 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8D5233A1D9A896900A1ECD0 /* MainViewController.m */; };
 		C8D5233E1D9A896900A1ECD0 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8D5233B1D9A896900A1ECD0 /* MainViewController.xib */; };
+		C8D523401D9BF1A400A1ECD0 /* DeviceSelectedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8D5233F1D9BF1A400A1ECD0 /* DeviceSelectedView.xib */; };
+		C8D523431D9BFA3B00A1ECD0 /* DeviceSelectedView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8D523421D9BFA3B00A1ECD0 /* DeviceSelectedView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -277,6 +279,9 @@
 		C8D523391D9A896900A1ECD0 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		C8D5233A1D9A896900A1ECD0 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		C8D5233B1D9A896900A1ECD0 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		C8D5233F1D9BF1A400A1ECD0 /* DeviceSelectedView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeviceSelectedView.xib; sourceTree = "<group>"; };
+		C8D523411D9BFA3B00A1ECD0 /* DeviceSelectedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceSelectedView.h; sourceTree = "<group>"; };
+		C8D523421D9BFA3B00A1ECD0 /* DeviceSelectedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceSelectedView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -509,6 +514,9 @@
 				C8C22D571D8D6D0200616108 /* DevicreTableViewCell.h */,
 				C8C22D581D8D6D0200616108 /* DevicreTableViewCell.m */,
 				C8C22D591D8D6D0200616108 /* DevicreTableViewCell.xib */,
+				C8D5233F1D9BF1A400A1ECD0 /* DeviceSelectedView.xib */,
+				C8D523411D9BFA3B00A1ECD0 /* DeviceSelectedView.h */,
+				C8D523421D9BFA3B00A1ECD0 /* DeviceSelectedView.m */,
 			);
 			path = cell;
 			sourceTree = "<group>";
@@ -651,6 +659,7 @@
 				C8D523301D9A891000A1ECD0 /* MyMusicViewController.xib in Resources */,
 				C8D523361D9A891000A1ECD0 /* PlayerViewController.xib in Resources */,
 				C8C22D4F1D8D515700616108 /* bg@2x.png in Resources */,
+				C8D523401D9BF1A400A1ECD0 /* DeviceSelectedView.xib in Resources */,
 				C8D522E41D9A88A900A1ECD0 /* ease_record_animate_02@2x.png in Resources */,
 				C8D523051D9A88A900A1ECD0 /* slike@2x.png in Resources */,
 				C8D522F41D9A88A900A1ECD0 /* like_haver@2x.png in Resources */,
@@ -761,6 +770,7 @@
 				C8C22D5A1D8D6D0200616108 /* DevicreTableViewCell.m in Sources */,
 				C8D5232F1D9A891000A1ECD0 /* MyMusicViewController.m in Sources */,
 				C8D5232B1D9A891000A1ECD0 /* MusicViewController.m in Sources */,
+				C8D523431D9BFA3B00A1ECD0 /* DeviceSelectedView.m in Sources */,
 				C8D523271D9A891000A1ECD0 /* DeviceEditeViewController.m in Sources */,
 				19EBBBC91D827493000C8BE6 /* main.m in Sources */,
 				C8D5233C1D9A896900A1ECD0 /* BaseViewController.m in Sources */,

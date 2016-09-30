@@ -14,6 +14,11 @@
 
 @property (weak, nonatomic) IBOutlet UIView *soundView;
 @property (weak, nonatomic) IBOutlet UIImageView *soundImgView;
-@property (retain,nonatomic) NSMutableArray* devices;
+@property (weak, nonatomic) IBOutlet UIView *selectedView;
+@property (weak, nonatomic) IBOutlet UIButton *hideBtn;
 
+@property (weak, nonatomic) IBOutlet UIView *myView;
+
+@property (retain,nonatomic) NSMutableArray* devices;//全部设备
+@property (retain,nonatomic) NSMutableArray* deviceViews;//选择的设备
 @end
